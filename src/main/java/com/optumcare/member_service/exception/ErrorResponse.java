@@ -13,7 +13,11 @@ public class ErrorResponse {
     private String message;
 
     public ErrorResponse(String errorCode, String message) {
-        this.errorCode = errorCode;
+//        this.errorCode = errorCode;
+        // Fixing the assignment issue
+//        this.errorCode = errorCode;
+        // Correct assignment
         this.message = message;
+
     }
 }

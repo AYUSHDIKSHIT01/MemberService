@@ -14,6 +14,7 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
 
 
+   //Security filter chain configuration
     //Security config for mapping it with tokens and role based access control
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
